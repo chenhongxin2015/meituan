@@ -13,6 +13,7 @@
 		1845BE9E1E5DAEF100D79D83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1845BE9C1E5DAEF100D79D83 /* Main.storyboard */; };
 		1845BEA01E5DAEF100D79D83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1845BE9F1E5DAEF100D79D83 /* Assets.xcassets */; };
 		1845BEA31E5DAEF100D79D83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1845BEA11E5DAEF100D79D83 /* LaunchScreen.storyboard */; };
+		1845BEAF1E5DB19700D79D83 /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = 1845BEAE1E5DB19700D79D83 /* Cat.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		1845BE9F1E5DAEF100D79D83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1845BEA21E5DAEF100D79D83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1845BEA41E5DAEF100D79D83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1845BEAD1E5DB19700D79D83 /* Cat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cat.h; sourceTree = "<group>"; };
+		1845BEAE1E5DB19700D79D83 /* Cat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cat.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +45,8 @@
 		1845BE871E5DAEF100D79D83 = {
 			isa = PBXGroup;
 			children = (
+				1845BEAD1E5DB19700D79D83 /* Cat.h */,
+				1845BEAE1E5DB19700D79D83 /* Cat.m */,
 				1845BE921E5DAEF100D79D83 /* meituan */,
 				1845BE911E5DAEF100D79D83 /* Products */,
 			);
@@ -150,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1845BEAF1E5DB19700D79D83 /* Cat.m in Sources */,
 				1845BE9B1E5DAEF100D79D83 /* ViewController.m in Sources */,
 				1845BE981E5DAEF100D79D83 /* AppDelegate.m in Sources */,
 				1845BE951E5DAEF100D79D83 /* main.m in Sources */,
